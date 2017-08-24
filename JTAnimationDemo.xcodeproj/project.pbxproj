@@ -12,6 +12,9 @@
 		C86C2C0E1F4D872500BD8624 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C86C2C0C1F4D872500BD8624 /* Main.storyboard */; };
 		C86C2C101F4D872500BD8624 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C86C2C0F1F4D872500BD8624 /* Assets.xcassets */; };
 		C86C2C131F4D872500BD8624 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C86C2C111F4D872500BD8624 /* LaunchScreen.storyboard */; };
+		C871EB121F4DC03C008962B1 /* BezierViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C871EB111F4DC03C008962B1 /* BezierViewController.swift */; };
+		C871EB141F4DC052008962B1 /* ParticleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C871EB131F4DC052008962B1 /* ParticleViewController.swift */; };
+		C871EB161F4DC066008962B1 /* WaterWaveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C871EB151F4DC066008962B1 /* WaterWaveViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		C86C2C0F1F4D872500BD8624 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C86C2C121F4D872500BD8624 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C86C2C141F4D872500BD8624 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C871EB111F4DC03C008962B1 /* BezierViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BezierViewController.swift; sourceTree = "<group>"; };
+		C871EB131F4DC052008962B1 /* ParticleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParticleViewController.swift; sourceTree = "<group>"; };
+		C871EB151F4DC066008962B1 /* WaterWaveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaterWaveViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,12 +62,39 @@
 			children = (
 				C86C2C081F4D872500BD8624 /* AppDelegate.swift */,
 				C86C2C0A1F4D872500BD8624 /* ViewController.swift */,
+				C871EB0E1F4DC023008962B1 /* BezierAni */,
+				C871EB0F1F4DC023008962B1 /* ParticleAnima */,
+				C871EB101F4DC023008962B1 /* WaterWave */,
 				C86C2C0C1F4D872500BD8624 /* Main.storyboard */,
 				C86C2C0F1F4D872500BD8624 /* Assets.xcassets */,
 				C86C2C111F4D872500BD8624 /* LaunchScreen.storyboard */,
 				C86C2C141F4D872500BD8624 /* Info.plist */,
 			);
 			path = JTAnimationDemo;
+			sourceTree = "<group>";
+		};
+		C871EB0E1F4DC023008962B1 /* BezierAni */ = {
+			isa = PBXGroup;
+			children = (
+				C871EB111F4DC03C008962B1 /* BezierViewController.swift */,
+			);
+			path = BezierAni;
+			sourceTree = "<group>";
+		};
+		C871EB0F1F4DC023008962B1 /* ParticleAnima */ = {
+			isa = PBXGroup;
+			children = (
+				C871EB131F4DC052008962B1 /* ParticleViewController.swift */,
+			);
+			path = ParticleAnima;
+			sourceTree = "<group>";
+		};
+		C871EB101F4DC023008962B1 /* WaterWave */ = {
+			isa = PBXGroup;
+			children = (
+				C871EB151F4DC066008962B1 /* WaterWaveViewController.swift */,
+			);
+			path = WaterWave;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +172,9 @@
 			files = (
 				C86C2C0B1F4D872500BD8624 /* ViewController.swift in Sources */,
 				C86C2C091F4D872500BD8624 /* AppDelegate.swift in Sources */,
+				C871EB161F4DC066008962B1 /* WaterWaveViewController.swift in Sources */,
+				C871EB141F4DC052008962B1 /* ParticleViewController.swift in Sources */,
+				C871EB121F4DC03C008962B1 /* BezierViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +338,7 @@
 				C86C2C191F4D872500BD8624 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
