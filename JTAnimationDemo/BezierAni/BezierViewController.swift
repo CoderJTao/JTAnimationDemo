@@ -12,8 +12,7 @@ class BezierViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        view.backgroundColor = UIColor.white
+        self.view.backgroundColor = UIColor.init(red: 44/255.0, green: 34/255.0, blue: 85/255.0, alpha: 1)
         let bezierPath = UIBezierPath()
         bezierPath.move(to: CGPoint(x: 50, y: 100))
         bezierPath.addLine(to: CGPoint(x: 325, y: 100))

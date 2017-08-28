@@ -23,7 +23,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     }()
     
     lazy var dataArr : [String] = {
-        var dataA = ["画线","水波浪","粒子动画"]
+        var dataA = ["画线","水波浪","雪花粒子动画", "烟花粒子动画", "火苗效果"]
         return dataA
     }()
     
@@ -65,6 +65,18 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         switch indexPath.row {
         case 0:
             let vc = BezierViewController()
+            self.navigationController?.pushViewController(vc, animated: true)
+        case 1:
+            let vc = WaterWaveViewController()
+            self.navigationController?.pushViewController(vc, animated: true)
+        case 2:
+            let vc = ParticleViewController()
+            self.navigationController?.pushViewController(vc, animated: true)
+        case 3:
+            let vc = FireworksViewController()
+            self.navigationController?.pushViewController(vc, animated: true)
+        case 4:
+            let vc = FireViewController()
             self.navigationController?.pushViewController(vc, animated: true)
         default:
             print("我是默认")

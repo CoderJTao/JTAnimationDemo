@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C82D3AA01F53B92300931D80 /* snow.png in Resources */ = {isa = PBXBuildFile; fileRef = C82D3A9F1F53B92300931D80 /* snow.png */; };
+		C82D3AA21F53BB8600931D80 /* FireworksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C82D3AA11F53BB8600931D80 /* FireworksViewController.swift */; };
+		C82D3AA61F53BD8600931D80 /* fire.png in Resources */ = {isa = PBXBuildFile; fileRef = C82D3AA31F53BD8600931D80 /* fire.png */; };
+		C82D3AA71F53BD8600931D80 /* dot.png in Resources */ = {isa = PBXBuildFile; fileRef = C82D3AA41F53BD8600931D80 /* dot.png */; };
+		C82D3AA81F53BD8600931D80 /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = C82D3AA51F53BD8600931D80 /* star.png */; };
+		C82D3AAA1F53C3A900931D80 /* FireViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C82D3AA91F53C3A900931D80 /* FireViewController.swift */; };
 		C86C2C091F4D872500BD8624 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86C2C081F4D872500BD8624 /* AppDelegate.swift */; };
 		C86C2C0B1F4D872500BD8624 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86C2C0A1F4D872500BD8624 /* ViewController.swift */; };
 		C86C2C0E1F4D872500BD8624 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C86C2C0C1F4D872500BD8624 /* Main.storyboard */; };
@@ -18,6 +24,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C82D3A9F1F53B92300931D80 /* snow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = snow.png; sourceTree = "<group>"; };
+		C82D3AA11F53BB8600931D80 /* FireworksViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FireworksViewController.swift; sourceTree = "<group>"; };
+		C82D3AA31F53BD8600931D80 /* fire.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fire.png; sourceTree = "<group>"; };
+		C82D3AA41F53BD8600931D80 /* dot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dot.png; sourceTree = "<group>"; };
+		C82D3AA51F53BD8600931D80 /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
+		C82D3AA91F53C3A900931D80 /* FireViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FireViewController.swift; sourceTree = "<group>"; };
 		C86C2C051F4D872500BD8624 /* JTAnimationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JTAnimationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C86C2C081F4D872500BD8624 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C86C2C0A1F4D872500BD8624 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -63,8 +75,8 @@
 				C86C2C081F4D872500BD8624 /* AppDelegate.swift */,
 				C86C2C0A1F4D872500BD8624 /* ViewController.swift */,
 				C871EB0E1F4DC023008962B1 /* BezierAni */,
-				C871EB0F1F4DC023008962B1 /* ParticleAnima */,
 				C871EB101F4DC023008962B1 /* WaterWave */,
+				C871EB0F1F4DC023008962B1 /* ParticleAnima */,
 				C86C2C0C1F4D872500BD8624 /* Main.storyboard */,
 				C86C2C0F1F4D872500BD8624 /* Assets.xcassets */,
 				C86C2C111F4D872500BD8624 /* LaunchScreen.storyboard */,
@@ -84,7 +96,13 @@
 		C871EB0F1F4DC023008962B1 /* ParticleAnima */ = {
 			isa = PBXGroup;
 			children = (
+				C82D3AA31F53BD8600931D80 /* fire.png */,
+				C82D3AA41F53BD8600931D80 /* dot.png */,
+				C82D3AA51F53BD8600931D80 /* star.png */,
+				C82D3A9F1F53B92300931D80 /* snow.png */,
 				C871EB131F4DC052008962B1 /* ParticleViewController.swift */,
+				C82D3AA11F53BB8600931D80 /* FireworksViewController.swift */,
+				C82D3AA91F53C3A900931D80 /* FireViewController.swift */,
 			);
 			path = ParticleAnima;
 			sourceTree = "<group>";
@@ -157,9 +175,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C82D3AA61F53BD8600931D80 /* fire.png in Resources */,
 				C86C2C131F4D872500BD8624 /* LaunchScreen.storyboard in Resources */,
+				C82D3AA81F53BD8600931D80 /* star.png in Resources */,
+				C82D3AA01F53B92300931D80 /* snow.png in Resources */,
 				C86C2C101F4D872500BD8624 /* Assets.xcassets in Resources */,
 				C86C2C0E1F4D872500BD8624 /* Main.storyboard in Resources */,
+				C82D3AA71F53BD8600931D80 /* dot.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -173,8 +195,10 @@
 				C86C2C0B1F4D872500BD8624 /* ViewController.swift in Sources */,
 				C86C2C091F4D872500BD8624 /* AppDelegate.swift in Sources */,
 				C871EB161F4DC066008962B1 /* WaterWaveViewController.swift in Sources */,
+				C82D3AAA1F53C3A900931D80 /* FireViewController.swift in Sources */,
 				C871EB141F4DC052008962B1 /* ParticleViewController.swift in Sources */,
 				C871EB121F4DC03C008962B1 /* BezierViewController.swift in Sources */,
+				C82D3AA21F53BB8600931D80 /* FireworksViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
