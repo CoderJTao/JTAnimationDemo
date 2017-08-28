@@ -13,6 +13,8 @@
 		C82D3AA71F53BD8600931D80 /* dot.png in Resources */ = {isa = PBXBuildFile; fileRef = C82D3AA41F53BD8600931D80 /* dot.png */; };
 		C82D3AA81F53BD8600931D80 /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = C82D3AA51F53BD8600931D80 /* star.png */; };
 		C82D3AAA1F53C3A900931D80 /* FireViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C82D3AA91F53C3A900931D80 /* FireViewController.swift */; };
+		C82D3AB71F540AE900931D80 /* MeteorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C82D3AB61F540AE900931D80 /* MeteorViewController.swift */; };
+		C82D3AB91F540BA100931D80 /* liuxing.png in Resources */ = {isa = PBXBuildFile; fileRef = C82D3AB81F540BA100931D80 /* liuxing.png */; };
 		C86C2C091F4D872500BD8624 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86C2C081F4D872500BD8624 /* AppDelegate.swift */; };
 		C86C2C0B1F4D872500BD8624 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86C2C0A1F4D872500BD8624 /* ViewController.swift */; };
 		C86C2C0E1F4D872500BD8624 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C86C2C0C1F4D872500BD8624 /* Main.storyboard */; };
@@ -30,6 +32,8 @@
 		C82D3AA41F53BD8600931D80 /* dot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dot.png; sourceTree = "<group>"; };
 		C82D3AA51F53BD8600931D80 /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
 		C82D3AA91F53C3A900931D80 /* FireViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FireViewController.swift; sourceTree = "<group>"; };
+		C82D3AB61F540AE900931D80 /* MeteorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeteorViewController.swift; sourceTree = "<group>"; };
+		C82D3AB81F540BA100931D80 /* liuxing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = liuxing.png; sourceTree = "<group>"; };
 		C86C2C051F4D872500BD8624 /* JTAnimationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JTAnimationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C86C2C081F4D872500BD8624 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C86C2C0A1F4D872500BD8624 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -100,9 +104,11 @@
 				C82D3AA41F53BD8600931D80 /* dot.png */,
 				C82D3AA51F53BD8600931D80 /* star.png */,
 				C82D3A9F1F53B92300931D80 /* snow.png */,
+				C82D3AB81F540BA100931D80 /* liuxing.png */,
 				C871EB131F4DC052008962B1 /* ParticleViewController.swift */,
 				C82D3AA11F53BB8600931D80 /* FireworksViewController.swift */,
 				C82D3AA91F53C3A900931D80 /* FireViewController.swift */,
+				C82D3AB61F540AE900931D80 /* MeteorViewController.swift */,
 			);
 			path = ParticleAnima;
 			sourceTree = "<group>";
@@ -181,6 +187,7 @@
 				C82D3AA01F53B92300931D80 /* snow.png in Resources */,
 				C86C2C101F4D872500BD8624 /* Assets.xcassets in Resources */,
 				C86C2C0E1F4D872500BD8624 /* Main.storyboard in Resources */,
+				C82D3AB91F540BA100931D80 /* liuxing.png in Resources */,
 				C82D3AA71F53BD8600931D80 /* dot.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -192,6 +199,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C82D3AB71F540AE900931D80 /* MeteorViewController.swift in Sources */,
 				C86C2C0B1F4D872500BD8624 /* ViewController.swift in Sources */,
 				C86C2C091F4D872500BD8624 /* AppDelegate.swift in Sources */,
 				C871EB161F4DC066008962B1 /* WaterWaveViewController.swift in Sources */,
