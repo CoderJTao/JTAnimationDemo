@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LottieViewController" customModule="JTAnimationDemo" customModuleProvider="target">
+            <connections>
+                <outlet property="contentView" destination="zhi-7I-ED3" id="ZRm-O2-MwJ"/>
+                <outlet property="replayBtn" destination="VIV-Ea-1PW" id="79y-1K-37p"/>
+                <outlet property="textView" destination="4Cb-M4-MA3" id="yNA-Xq-wSs"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zhi-7I-ED3">
+                    <rect key="frame" x="20" y="165.5" width="335" height="335"/>
+                    <subviews>
+                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="4Cb-M4-MA3">
+                            <rect key="frame" x="0.0" y="0.0" width="335" height="335"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                        </textView>
+                    </subviews>
+                    <color key="backgroundColor" red="1" green="0.99010153491167707" blue="0.95813044716417572" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="zhi-7I-ED3" secondAttribute="height" multiplier="1:1" id="3sy-nu-LFx"/>
+                        <constraint firstAttribute="bottom" secondItem="4Cb-M4-MA3" secondAttribute="bottom" id="AwM-4z-v3l"/>
+                        <constraint firstAttribute="trailing" secondItem="4Cb-M4-MA3" secondAttribute="trailing" id="HLW-KR-TTc"/>
+                        <constraint firstItem="4Cb-M4-MA3" firstAttribute="top" secondItem="zhi-7I-ED3" secondAttribute="top" id="dqr-1J-Jp2"/>
+                        <constraint firstItem="4Cb-M4-MA3" firstAttribute="leading" secondItem="zhi-7I-ED3" secondAttribute="leading" id="yUT-ga-tcP"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VIV-Ea-1PW">
+                    <rect key="frame" x="132" y="549" width="111" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="0.52402833939790039" green="1" blue="0.9637200928618328" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <state key="normal" title="重播">
+                        <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="rePlay:" destination="-1" eventType="touchUpInside" id="hJZ-vk-Hbr"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0FX-oa-uqk">
+                    <rect key="frame" x="95" y="100" width="148" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="0.52402833940000004" green="1" blue="0.96372009290000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <state key="normal" title="点击可更换动画">
+                        <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="animationClick:" destination="-1" eventType="touchUpInside" id="9dF-IE-aAx"/>
+                    </connections>
+                </button>
+                <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ciy-Q9-yWR">
+                    <rect key="frame" x="268" y="100" width="64" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="0.52402833940000004" green="1" blue="0.96372009290000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <state key="normal" title="打字">
+                        <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="typeClick:" destination="-1" eventType="touchUpInside" id="nkf-xc-nF0"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="zhi-7I-ED3" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="7ws-uP-DJ0"/>
+                <constraint firstItem="zhi-7I-ED3" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="Nuq-Cn-d8o"/>
+                <constraint firstItem="zhi-7I-ED3" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="woV-5U-OfI"/>
+                <constraint firstAttribute="trailing" secondItem="zhi-7I-ED3" secondAttribute="trailing" constant="20" id="yRY-Ta-seM"/>
+            </constraints>
+            <point key="canvasLocation" x="25.5" y="51.5"/>
+        </view>
+    </objects>
+</document>

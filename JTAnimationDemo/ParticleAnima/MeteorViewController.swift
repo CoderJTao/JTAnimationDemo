@@ -28,6 +28,7 @@ class MeteorViewController: UIViewController {
         timer = Timer.scheduledTimer(timeInterval: 2, target: self, selector: #selector(liuXingAnimation), userInfo: nil, repeats: true)
     }
     
+    ///流星动画
     func liuXingAnimation() {
         let rect    = CGRect(x: self.view.bounds.size.width, y: self.view.bounds.height, width: 100, height: 100)
         let emitter = CAEmitterLayer()
